@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horaire</title>
+    <style>
+        .success{
+            border: dotted green;
+        }
+    </style>
+</head>
+<body>    
+    <div class="time"></div>
+    <form>
+        <input class="h" type="text" placeholder="hour here"  >
+        <br>
+        <input class="m" type="text" placeholder="minute here"  >
+        <br>
+        <input class="button" style="display: none;" onclick="sonne()" type="submit" value="alarme">
+    </form>
+
+    <audio autoplay controls>
+    </audio>
+    <script src="time.js"></script>
+</body>
+</html>
